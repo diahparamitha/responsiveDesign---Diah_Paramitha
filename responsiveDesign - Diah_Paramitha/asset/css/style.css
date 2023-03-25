@@ -1,0 +1,91 @@
+.navbar{
+  display: flex;
+  margin-left: 35%;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.blog {
+  background: powderblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-family: sans-serif;
+  margin-left: 35%;
+}
+
+.blog-desc {
+  margin-left: 35%;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  display: inline-block;
+  width: 20%;
+}
+
+.img-card {
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat; /*supaya gambar tidak lebih besar dari canvas*/
+}
+
+.title {
+  font-family: cursive;
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 400px;
+}
+
+.deskripsi {
+  text-align: justify;
+  top: 400px;
+}
+
+.card-content {
+  margin: 10px;
+  width: auto;
+}
+
+.button {
+  background-color: powderblue;
+  border-style: none;
+  padding: 7px;
+}
+
+.sidebar {
+
+}
+
+@media (max-width:  300px) {
+  .card {
+    width:  100%;
+    display: block;
+  }
+  .blog {
+    display: none;
+  }
+  .img-card {
+    width: 100%;
+  }
+  .deskripsi {
+    display: block;
+  }
+  .title {
+    display: block;
+  }
+}

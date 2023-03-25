@@ -1,0 +1,21 @@
+/*h1 {
+	color: blue;
+	font-family: fantasy;
+}*/
+
+body {
+	background: black;
+	color: white;
+	font-family: cursive;
+	max-width: 800px;
+}
+
+h1 {
+	text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		background: blue;
+	}
+}

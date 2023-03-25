@@ -1,0 +1,53 @@
+body {
+	max-width: 900px;
+}
+
+.container {
+	display: flex;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: 0 2px 5px #ccc;
+	margin:  20px;
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+	display: flex;
+}
+
+.img-card {
+	width: 60%;
+	border-radius: 10px;
+	background-size: cover;
+	background-repeat: no-repeat; /*supaya gambar tidak lebih besar dari canvas*/
+}
+
+.title {
+	text-align: center;
+	font-family: cursive;
+	color: firebrick;
+	font-size: 20px;
+}
+
+.deskripsi {
+	text-align: justify;
+}
+
+.card-content {
+	margin: 10px;
+	width: auto;
+}
+
+@media (max-width:  600px) {
+	.card {
+		width:  100%;
+		display: block;
+	}
+	.img-card {
+		width: 100%;
+	}
+	.deskripsi {
+		display: none;
+	}
+}
