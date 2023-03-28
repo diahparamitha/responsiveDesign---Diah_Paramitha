@@ -1,0 +1,19 @@
+
+@media (max-width:  360px) {
+  .blog {
+    display: none;
+  }
+  #navbarNav {
+    margin-left: 120px;
+  }
+  .card {
+      width:  100%;
+      display: block;
+      margin-bottom: 10px;
+  }
+  .card-text {
+    position: absolute;
+    top: 123px;
+    color: white;
+  }
+}
